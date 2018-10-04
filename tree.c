@@ -6,7 +6,6 @@
 */
 
 #include "my.h"
-#include <stdio.h>
 
 static int get_max_line(int nb)
 {
