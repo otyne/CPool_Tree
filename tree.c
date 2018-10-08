@@ -76,6 +76,8 @@ void tree(int nb)
     int max_line = get_max_line(nb);
     int max_col = get_max_col(nb);
 
-    line_element(nb, max_col, max_line);
-    trunc_element(nb, max_col);
+    if (nb > 0) {
+        line_element(nb, max_col, max_line);
+        trunc_element(nb, max_col);
+    }
 }
